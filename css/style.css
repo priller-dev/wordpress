@@ -1,0 +1,343 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.promo {
+	height: 800px;
+	background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+	padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo .logo_text {
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 14px;
+}
+
+h1 {
+	margin-top: 53px;
+}
+
+h2.title {
+	margin-top: 30px;
+}
+
+.title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 41px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #f9bf3b;
+}
+
+.simple .title_big {
+	color: #ffffff;
+	font-family: 'Roboto';
+	font-size: 80px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 21px;
+}
+
+.promo .promo_text {
+	color: #ffffff;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: 'Roboto';
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 23px;
+	padding: 0 13px;
+}
+
+.promo .promo_text span {
+	color: #f9bf3b;
+	font-family: 'Roboto';
+	font-weight: 700;
+}
+
+.promo .promo_btn,
+.gift .promo_btn {
+	/*button style*/
+	display: block;
+	margin: 0 auto;
+	margin-top: 73px;
+	width: 313px;
+	height: 72px;
+	outline: none;
+	cursor: pointer; /*it will change cursor's view when it will select on button*/
+	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+	border: 4px solid rgba(0, 0, 0, 0.23);
+	background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+	/*text(in button) style*/
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+	color: #ffffff;
+	font-family: 'Roboto';
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.more {
+	margin-top: 73px;
+}
+
+.more .more_text {
+	color: #ffffff;
+	font-family: 'Roboto';
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.more .more_img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 13px;
+}
+
+.waiting {
+	min-height: 604px;
+	background-color: #fff;
+	padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header,
+.finish .finish_header {
+	color: #252525;
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.finish .finish_header {
+	color: #efefef;
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
+	width: 217px;
+	height: 4px;
+	background-color: #f9bf3b;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+	margin-top: 17px;
+	color: #4a4a4a;
+	font-family: 'Roboto';
+	font-size: 23px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.waiting .waiting_wrapper {
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+	width: 339px;
+	text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+	margin-top: 33px;
+	color: #4a4a4a;
+	font-family: 'Roboto';
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+.optimization {
+	min-height: 550px;
+	padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 30px;
+	color: #299cbd;
+	margin-left: 391px;
+}
+.optimization .optimization_text {
+	margin-top: 25px;
+	margin-left: 391px;
+	color: #4a4a4a;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 27px;
+	font-family: 'Roboto';
+}
+.optimization .optimization_text span {
+	font-weight: 700;
+	font-family: 'Roboto';
+}
+
+.optimization .optimization_img {
+	position: absolute;
+	top: -54px;
+	left: -240px;
+	z-index: -1;
+}
+.finish {
+	min-height: 447px;
+	padding: 86px 0 79px 0px;
+	background-image: url('/img/bg/second_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.finish .finish_wrapper {
+	margin-top: 41px;
+	display: flex;
+	justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item {
+	width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round {
+	background-color: #b4e2ff;
+	width: 115px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 115px;
+	border-radius: 100%;
+}
+.finish .finish_wrapper .finish_item .finish_descr {
+	margin-top: 25px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	text-align: center;
+	font-size: 17px;
+	line-height: 20px;
+	color: #efefef;
+}
+.gift {
+	min-height: 631px;
+	background-color: #efefef;
+}
+.gift .gift_icon {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 88px;
+	padding-bottom: 45px;
+}
+.gift .gift_text {
+	padding-bottom: 45px;
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 43px;
+	color: #252525;
+}
+.webinar {
+	min-height: 512px;
+}
+
+.webinar .webinar_img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 89px;
+}
+.webinar .first_webinar {
+	margin-top: 36px;
+	margin-bottom: 30px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+.webinar .date {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 36px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 24.5px;
+	color: #299cbd;
+}
+
+.webinar .register {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 20px;
+	align-items: center;
+	text-align: center;
+	color: #4a4a4a;
+	margin-bottom: 50.5px;
+}
+.footer {
+	min-height: 169px;
+	background-color: #1a1a1a;
+}
+
+.footer .footer_text {
+	padding-top: 55px;
+	align-items: center;
+	text-align: center;
+}
+
+.footer .footer_text span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+	color: #888888;
+}
+
+#underline {
+	text-decoration: none;
+	border-bottom: 1px solid #888888;
+}
